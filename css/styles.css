@@ -1,0 +1,162 @@
+body{
+    background-color: #6D9AFF;
+    background-image: url(../imagens/background.png);
+}
+
+form#formularioLogin{
+    width: 100%;
+    margin: 6px;
+    padding: 4px;
+}
+
+table#loginTable td {
+    padding: 1px;
+}
+
+div#caixaLogin{
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 271px;
+    margin: 0 auto;
+    height: 123px;
+    margin-top: 10%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-eureca{
+    margin-top: 1%;
+    width: 24%;
+}
+
+.alert-dangerLogin{
+    position: fixed;
+    margin-top: 75px;
+    width: 100%;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+div#caixaPergunta{
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 51%;
+    height: 43%;
+    margin: 0 auto;
+    margin-top: 11%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+table#cadastrarPerguntaTable td {
+    padding: 6px;
+}
+
+textarea.form-control {
+    height: 71px;
+    width: 269%;
+}
+
+.alert-successCadastroPergunta{
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+div#caixaPerguntaEditar{
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 51%;
+    height: 54%;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 9%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+form#formularioEditarPergunta{
+    width: 100%;
+    margin: 6px;
+    padding: 4px;
+}
+
+form#formularioPergunta{
+    width: 100%;
+    margin: 6px;
+    padding: 4px;
+}
+
+div#caixaUsuarioEditar{
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 27%;
+    height: 48%;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 9%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+form#formularioEditarUsuario{
+    width: 100%;
+    margin: 6px;
+    padding: 4px;
+}
+
+table#editarUsuarioTable td {
+    padding: 6px;
+}
+
+div#caixaCadastroAdmin{
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 27%;
+    height: 39%;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 12%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+form#formularioAdmin{
+    width: 100%;
+    margin: 6px;
+    padding: 4px;
+}
+
+table#cadastrarAdminTable td{
+    padding: 6px;
+}
+
+.alert-successCadastroAdmin{
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-dangerSenhaDiferente{
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-successEdicaoPergunta {
+    position: fixed;
+    margin-top: -6px;
+    width: 100%;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-dangerPergunta{
+    position: fixed;
+    margin-top: -6px;
+    width: 100%;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
